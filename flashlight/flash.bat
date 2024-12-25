@@ -1,0 +1,1 @@
+pymcuprog -t uart -u com19 -d attiny1616 write -f ./Debug/flashlight.hex --erase --verify
